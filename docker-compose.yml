@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  angular-docker:
+    container_name: ngazure
+    build: .
+    ports:
+      - '8081:80'
